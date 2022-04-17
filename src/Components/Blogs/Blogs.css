@@ -1,0 +1,15 @@
+.blogs-container .blog-1,
+.blog-2,
+.blog-3 {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+.blogs-container p {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.blogs-container h3 {
+    padding: 5px;
+}

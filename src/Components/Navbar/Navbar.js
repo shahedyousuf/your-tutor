@@ -30,7 +30,7 @@ const Navbar = () => {
                         <NavLink style={({ isActive }) =>
                             isActive ? activeStyle : undefined
                         }
-                            className="nav-link" to="/about">About</NavLink>
+                            className="nav-link" to="/about">About Me</NavLink>
                     </div>
                 </div>
             </div>

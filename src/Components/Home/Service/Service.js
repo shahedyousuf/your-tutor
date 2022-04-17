@@ -9,8 +9,8 @@ const Service = ({ service }) => {
             <Card className=''>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>
+                    <Card.Title className='fw-semibold'>{name}</Card.Title>
+                    <Card.Text className='fs-5'>
                         {description}
                     </Card.Text>
                     <br />

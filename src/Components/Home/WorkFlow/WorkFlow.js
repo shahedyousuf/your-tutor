@@ -15,7 +15,7 @@ const WorkFlow = () => {
                         <img src={number1} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Identify task</h5>
-                            <p className="card-text">Students are encouraged to initiate and focus of the session.</p>
+                            <p className="card-text fs-5">Students are encouraged to initiate and focus of the session.</p>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const WorkFlow = () => {
                         <img src={number2} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Breaking tasks in parts</h5>
-                            <p className="card-text">Provide an opportunity to break the tasks into organizable pieces.</p>
+                            <p className="card-text fs-5">Provide an opportunity to break the tasks into organizable pieces.</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const WorkFlow = () => {
                         <img src={number3} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Setting agenda</h5>
-                            <p className="card-text">Discuss with the student about the amount of time necessary to complete each part of task.</p>
+                            <p className="card-text fs-5">Discuss with the student about the amount of time necessary to complete each part of task.</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const WorkFlow = () => {
                         <img src={number4} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Thought process</h5>
-                            <p className="card-text">Student need to summarize the process of addressing task.</p>
+                            <p className="card-text fs-5">Student need to summarize the process of addressing task.</p>
                         </div>
                     </div>
                 </div>
