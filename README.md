@@ -3,11 +3,11 @@
 [Your Tutor](https://github.com/facebook/create-react-app).
 
 ## Features
-"*" Navbar and footer added.
-"*" Login using email and password.
-"*" Protected route setup.
-"*" Google sign in option provided.
-"*" Email verification link setup provided.
+* Navbar and footer added.
+* Login using email and password.
+* Protected route setup.
+* Google sign in option provided.
+* Email verification link setup provided.
 
 ### Technologies used
 1. React router.
