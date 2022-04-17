@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# Your Tutor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Your Tutor](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Features
+"*" Navbar and footer added.
+"*" Login using email and password.
+"*" Protected route setup.
+"*" Google sign in option provided.
+"*" Email verification link setup provided.
 
-In the project directory, you can run:
+### Technologies used
+1. React router.
+2. Firebase authentication.
+3. Bootstrap and React bootstrap.
+4. React-firebase hooks.
+
+
 
 ### `npm start`
 
