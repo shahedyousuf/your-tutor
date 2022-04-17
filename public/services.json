@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Proper guiding",
+        "image": "https://media.istockphoto.com/photos/teach-inspire-motivate-empower-text-words-typography-written-on-paper-picture-id1297518021?b=1&k=20&m=1297518021&s=170667a&w=0&h=11xEKcvvUrLACQOZpRd6LrQwvLbQcKdCay3RuwrtjGw=",
+        "description": "We always guide our students in proper manner. It doesn't matter which situation you are in but we care."
+    },
+    {
+        "id": 2,
+        "name": "Better evaluation",
+        "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "description": "We will evaluate our student's ability to grow in particular subject accordingly."
+    },
+    {
+        "id": 3,
+        "name": "Helping hands to struggling students",
+        "image": "https://images.unsplash.com/photo-1501349800519-48093d60bde0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHRlYWNoaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "description": "We help students who struggle a little bit. We will take special care of."
+    },
+    {
+        "id": 4,
+        "name": "Comprehensive expertise",
+        "image": "https://images.unsplash.com/photo-1597570889212-97f48e632dad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fHRlYWNoaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "description": "Expert on particular subject is very important. Will try my best to provide great learning experience"
+    },
+    {
+        "id": 5,
+        "name": "Media toolkit",
+        "image": "https://images.unsplash.com/photo-1597933471507-1ca5765185d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fHpvb218ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "description": "We are flexible in teaching. We can do it online if the student don't be able to be present physically"
+    },
+    {
+        "id": 6,
+        "name": "New concepts",
+        "image": "https://media.istockphoto.com/photos/glowing-light-bulb-and-book-or-text-book-with-futuristic-icon-self-picture-id1320882544?b=1&k=20&m=1320882544&s=170667a&w=0&h=ihwn0m_Ify_x1yHWH78pNWZhDkyA4ZPZaHV7DrU2eL0=",
+        "description": "We give students concepts of today's world in efficient way. It's not like the textbook way."
+    }
+]
