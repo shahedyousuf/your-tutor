@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     let activeStyle = {
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="btn btn-primary m-2">Sign out</div> */}
+            <Link to='/login'>Sign in</Link>
         </nav>
     );
 };
