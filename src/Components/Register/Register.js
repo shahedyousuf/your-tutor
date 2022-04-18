@@ -12,7 +12,8 @@ const Register = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [confirmPassword, setConfirmPassword] = useState('')
-
+    const [errors, setErrors] = useState('')
+    const navigate = useNavigate()
     const [
         createUserWithEmailAndPassword,
         user,
@@ -20,10 +21,20 @@ const Register = () => {
         error,
     ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
+    if (loading) {
+        return <Loading></Loading>
+    }
 
-    const navigate = useNavigate()
     if (user) {
         navigate('/checkout')
+    }
+
+
+    let errorElement
+    if (error) {
+        errorElement = <div>
+            <p className='text-danger'>Error: {error.message}</p>
+        </div>
     }
 
 
@@ -45,17 +56,20 @@ const Register = () => {
     }
 
     const handleConfirmPassword = event => {
-        event.preventDefault()
         setConfirmPassword(event.target.value)
     }
 
-
-
     const handleRegister = event => {
         event.preventDefault()
-
-        createUserWithEmailAndPassword(email, password);
-
+        if (password === confirmPassword) {
+            createUserWithEmailAndPassword(email, password);
+        }
+        else if (password !== confirmPassword) {
+            setErrors('Passwords do not match')
+        }
+        else {
+            setErrors('Provide valid email')
+        }
     }
 
     return (
@@ -73,14 +87,11 @@ const Register = () => {
 
                 <input type="submit" value="Register" />
             </form>
+            {errorElement}
+            <p className='text-danger'>{errors}</p>
             <p className='m-2'>Already have an account? <Link style={{ textDecoration: 'none' }} to='/login'>Sign in here.</Link></p>
             <GoogleLogin></GoogleLogin>
-            {/* <br />
-            <p>--------------- Or ----------------</p>
-            <button onClick={() => signInWithGoogle()} className="btn-primary p-3 rounded">
-                <img className='me-2' src={google} alt="" />
-                Sign in using Google
-            </button> */}
+
         </>
     );
 };
