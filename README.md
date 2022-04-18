@@ -1,6 +1,6 @@
 # Your Tutor
 
-[Your Tutor](https://github.com/facebook/create-react-app).
+[Your Tutor](https://your-tutor.netlify.app/).
 
 ## Features
 * Navbar and footer added.
@@ -9,11 +9,11 @@
 * Google sign in option provided.
 * Email verification link setup provided.
 
-### Technologies used
-1. React router.
-2. Firebase authentication.
-3. Bootstrap and React bootstrap.
-4. React-firebase hooks.
+## Technologies used
+* React router.
+* Firebase authentication.
+* Bootstrap and React bootstrap.
+* React-firebase hooks.
 
 
 
