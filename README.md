@@ -1,6 +1,6 @@
 # Your Tutor
 
-[Your Tutor](https://your-tutor.netlify.app/).
+[Your Tutor](https://independent-service-prov-96d02.web.app/).
 
 ## Features
 * Navbar and footer added.
