@@ -1,13 +1,11 @@
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import auth from '../../firebase.init';
 import { signOut } from 'firebase/auth';
 
 const Navbar = () => {
     const [user, loading, error] = useAuthState(auth);
-    console.log(user)
-
 
     let activeStyle = {
         borderBottom: '2px solid orange'

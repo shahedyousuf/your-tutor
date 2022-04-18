@@ -43,7 +43,6 @@ const Banner = () => {
                         src={banner3}
                         alt="Math"
                     />
-
                     <Carousel.Caption>
                         <h3 className='text-light fs-3'>Math</h3>
                         <p className='text-light fs-4'> Math is interesting!</p>

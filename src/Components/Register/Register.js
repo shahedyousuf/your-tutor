@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Register.css';
-import google from '../../images/google.png';
-import { useCreateUserWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import GoogleLogin from '../GoogleLogin/GoogleLogin';
 import Loading from '../Loading/Loading';
@@ -14,6 +13,7 @@ const Register = () => {
     const [confirmPassword, setConfirmPassword] = useState('')
     const [errors, setErrors] = useState('')
     const navigate = useNavigate()
+
     const [
         createUserWithEmailAndPassword,
         user,
@@ -29,16 +29,12 @@ const Register = () => {
         navigate('/checkout')
     }
 
-
     let errorElement
     if (error) {
         errorElement = <div>
             <p className='text-danger'>Error: {error.message}</p>
         </div>
     }
-
-
-    // const [signInWithGoogle, googleUser, googleLoading, googlError] = useSignInWithGoogle(auth);
 
     const handleName = event => {
         event.preventDefault()
@@ -84,14 +80,12 @@ const Register = () => {
                 <br />
                 <input onChange={handleConfirmPassword} type="password" name="confirmPassword" placeholder='Confirm password' required />
                 <br />
-
                 <input type="submit" value="Register" />
             </form>
             {errorElement}
             <p className='text-danger'>{errors}</p>
             <p className='m-2'>Already have an account? <Link style={{ textDecoration: 'none' }} to='/login'>Sign in here.</Link></p>
             <GoogleLogin></GoogleLogin>
-
         </>
     );
 };

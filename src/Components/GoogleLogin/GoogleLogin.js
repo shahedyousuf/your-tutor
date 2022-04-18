@@ -34,7 +34,6 @@ const GoogleLogin = () => {
                     <span className='px-2'>Sign in using Google</span>
                 </button>
             </div>
-
         </div >
     );
 };

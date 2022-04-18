@@ -9,11 +9,11 @@ const CheckOut = () => {
         <div>
             <h2>Welcome to checkout</h2>
             <form onSubmit={handleSubmit} className='form-container'>
-                <input type="text" name="name" placeholder='Your name' />
+                <input type="text" name="name" placeholder='Your name' required />
                 <br />
                 <input type="email" name="email" placeholder='Your email' />
                 <br />
-                <input type="number" name="phone" placeholder='Phone number' />
+                <input type="number" name="phone" placeholder='Phone number' required />
                 <br />
                 <input type="submit" value="Submit" />
             </form>
