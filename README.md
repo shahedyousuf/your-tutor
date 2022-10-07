@@ -1,21 +1,21 @@
-# Your Tutor
+# Your University
 
-[Your Tutor](https://independent-service-prov-96d02.web.app/).
+[Your University](https://independent-service-prov-96d02.web.app/).
 
 ## Features
-* Navbar and footer added.
-* Login using email and password.
-* Protected route setup.
-* Google sign in option provided.
-* Email verification link setup provided.
+
+- Navbar and footer added.
+- Login using email and password.
+- Protected route setup.
+- Google sign in option provided.
+- Email verification link setup provided.
 
 ## Technologies used
-* React router.
-* Firebase authentication.
-* Bootstrap and React bootstrap.
-* React-firebase hooks.
 
-
+- React router.
+- Firebase authentication.
+- Bootstrap and React bootstrap.
+- React-firebase hooks.
 
 ### `npm start`
 
