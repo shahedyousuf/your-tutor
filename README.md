@@ -1,6 +1,6 @@
 # Your University
 
-[Your University](https://independent-service-prov-96d02.web.app/).
+[Your University](https://your-university.netlify.app/).
 
 ## Features
 
